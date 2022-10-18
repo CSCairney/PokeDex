@@ -7,6 +7,12 @@ router.get("/getAll", pokemonController.getAllPokemon);
 // Read request for pokemon by ID,
 router.get("/getById/:id", pokemonController.getById);
 
+// Read request for pokemon by Name,
+router.get("/getById/:name", pokemonController.getByName);
+
+// Read request for pokemon by Type,
+router.get("/getByType/:type", pokemonController.getByType);
+
 // Create request for pokemon,
 router.post("/create", pokemonController.createPokemon);
 
