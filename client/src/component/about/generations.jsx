@@ -57,6 +57,30 @@ function GenerationsCarousel() {
           <p>Released - 2000</p>
         </Carousel.Caption>
       </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/game_boy_advance_7/SI_GBA_PokemonSapphire_enGB_image1600w.jpg"
+          alt="Pokemon Ruby and Sapphire"
+        />
+
+        <Carousel.Caption>
+          <h3>Pokemon Ruby and Sapphire</h3>
+          <p>Released - 2002</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://img.gurugamer.com/resize/1200x-/2020/05/24/image-2-pokemon-fire-red-and-leaf-green-download-e8ee.jpg"
+          alt="Pokemon LeafGreen & FireRed"
+        />
+
+        <Carousel.Caption>
+          <h3>Pokemon LeafGreen & FireRed</h3>
+          <p>Released - 2004</p>
+        </Carousel.Caption>
+      </Carousel.Item>
     </Carousel>
   );
 }

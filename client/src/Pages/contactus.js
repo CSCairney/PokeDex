@@ -1,9 +1,12 @@
 import React from 'react';
-import EmailForm from '../component/contact/emailForm';
+import History from '../component/about/history';
 
- function ContactUs() {
+ function AboutUs() {
   return( 
-    <EmailForm/>
+    <>
+    <History/>
+    <GenerationsCarousel />
+    </>
   );
 }
 export default ContactUs;
