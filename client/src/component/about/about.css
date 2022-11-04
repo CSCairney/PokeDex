@@ -1,0 +1,24 @@
+.header {
+    padding-left: 1.5rem;
+    background-color: #333652; 
+    color: whitesmoke ;
+}
+.button {
+    margin-right: 45rem;
+}
+
+.col-md-9 {
+    flex: auto;
+    width: auto;
+    justify-content: center;
+    color: #FAD02C;
+}
+.h1{
+    color: #FAD02C;
+}
+.h5{
+    color: #FAD02C;
+}
+#title{
+    color: #FAD02C !important;
+}
