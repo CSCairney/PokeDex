@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import puttshack from './images/puttshack.jpeg'
 import market from './images/market.jpeg'
 import Kidzania from './images/kidzania.jpeg'
-import './Places.css'
+import './News.css'
 const Places = () => {
 
     return (<>
